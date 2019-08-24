@@ -1,0 +1,3 @@
+xpack.monitoring.enabled: false
+xpack.monitoring.elasticsearch.hosts: ["master0:9200","master1:9200","master2:9200"]
+log.level: error

@@ -1,0 +1,59 @@
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="search.css" />
+    <link rel="stylesheet" type="text/css" href="product.css" />
+    <script src="search.js"></script>
+  </head>
+
+  <body onload="initialSearch()">
+    <div class="search">
+      <input
+        type="text"
+        class="searchTerm"
+        placeholder="What are you looking for?"
+        oninput="doSearch(true)"
+        onkeydown="handleEnter(event)"
+        autofocus
+      />
+      <button type="submit" class="searchButton" onclick="doSearch(true)">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="searchResult">
+      <div class="resultWrapper"></div>
+      <div class="spinnerWrapper">
+        <svg
+          class="spinner"
+          width="65px"
+          height="65px"
+          viewBox="0 0 66 66"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            class="path"
+            fill="none"
+            stroke-width="6"
+            stroke-linecap="round"
+            cx="33"
+            cy="33"
+            r="30"
+          ></circle>
+        </svg>
+      </div>
+      <div class="paginator" style="display: none;">
+        <label>Page:</label>
+        <select onchange="doSearch()">
+          <option value="0">1</option>
+          <option value="1">2</option>
+          <option value="2">3</option>
+          <option value="3">4</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

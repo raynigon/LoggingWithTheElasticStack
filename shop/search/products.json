@@ -1,0 +1,790 @@
+{
+  "docs": [
+    {
+      "id": "9ae97121-58fd-474d-a612-01b6a88d0d3d",
+      "title": "Apfel Granny Smith",
+      "imageUrl": "https://img.rewe-static.de/4941071/24569178_digital-image.png",
+      "price": 30,
+      "discounted": false
+    },
+    {
+      "id": "fbb3a103-7799-41c2-a3d8-ebc3d660304b",
+      "title": "REWE Bio Aubergine",
+      "imageUrl": "https://img.rewe-static.de/8263652/29097001_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 169,
+      "discounted": false
+    },
+    {
+      "id": "79601be7-5bba-415e-8372-2f478818f7dc",
+      "title": "REWE Beste Wahl Mangostreifen 100g",
+      "imageUrl": "https://img.rewe-static.de/2325024/23911175_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "caf3c0a0-50f3-476d-9213-44d88ed2a787",
+      "title": "Seeberger Mangos ungezuckert 100g",
+      "imageUrl": "https://img.rewe-static.de/0700089/5259010_digital-image.png",
+      "brand": "Seeberger",
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "b239bfef-38a5-49f8-a637-2864d5f27ead",
+      "title": "Seeberger Pinienkerne 150g",
+      "imageUrl": "https://img.rewe-static.de/1460406/23937913_digital-image.png",
+      "brand": "Seeberger",
+      "price": 979,
+      "discounted": false
+    },
+    {
+      "id": "6976d961-b29c-4030-8b6e-5a2aa6d5dc4f",
+      "title": "Apfel Gala rot",
+      "imageUrl": "https://img.rewe-static.de/9175393/24568905_digital-image.png",
+      "price": 50,
+      "discounted": false
+    },
+    {
+      "id": "445a88d9-caf8-4efb-9906-ff1946922306",
+      "title": "Bio Zentrale Apfelchips 50g",
+      "imageUrl": "https://img.rewe-static.de/1103163/23477519_digital-image.png",
+      "brand": "biozentrale",
+      "filterTags": ["organic"],
+      "price": 229,
+      "discounted": false
+    },
+    {
+      "id": "9a03aaa3-6343-479c-ab4c-a9850132afcc",
+      "title": "Seeberger Delikatess-Feigen 200g",
+      "imageUrl": "https://img.rewe-static.de/5151325/7360200_digital-image.png",
+      "brand": "Seeberger",
+      "price": 269,
+      "discounted": false
+    },
+    {
+      "id": "40c10a2b-8bfc-4abb-a421-76d33040c4d8",
+      "title": "Farmer's Snack Dattel 200g",
+      "imageUrl": "https://img.rewe-static.de/0319120/1552790_digital-image.png",
+      "brand": "Farmer's Snack",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "77cf8441-6890-44be-8dfb-fc6e3c9a6404",
+      "title": "Zitrone",
+      "imageUrl": "https://img.rewe-static.de/1970267/24568900_digital-image.png",
+      "price": 59,
+      "discounted": false
+    },
+    {
+      "id": "e27188b0-7950-4a63-b962-ced392704072",
+      "title": "N.A! Frucht Snack Erdbeere 35g",
+      "imageUrl": "https://img.rewe-static.de/1976407/22857649_digital-image.png",
+      "brand": "n.a!",
+      "price": 125,
+      "discounted": false
+    },
+    {
+      "id": "45f01dd6-da4e-4b89-9809-c30f912cf025",
+      "title": "REWE Beste Wahl Superfruit Beeren Mix 150g",
+      "imageUrl": "https://img.rewe-static.de/3158600/26777284_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "0bd1b2f1-28f9-4c5f-9091-311d3a143b12",
+      "title": "Seeberger Datteln ensteint 500g",
+      "imageUrl": "https://img.rewe-static.de/2842246/26081093_digital-image.png",
+      "brand": "Seeberger",
+      "price": 479,
+      "discounted": false
+    },
+    {
+      "id": "ec8a51d3-d88d-45dc-a580-4e56aa730bd5",
+      "title": "Aronia Aroniabeeren getrocknet 500g",
+      "imageUrl": "https://img.rewe-static.de/2465045/25399259_digital-image.png",
+      "brand": "Aronia Original",
+      "filterTags": ["organic"],
+      "price": 999,
+      "discounted": false
+    },
+    {
+      "id": "acabe0a0-91ae-476d-a08f-c1dcc57bf2b9",
+      "title": "Govinda Goji-Beeren 250g",
+      "imageUrl": "https://img.rewe-static.de/1397487/24847626_digital-image.png",
+      "brand": "Govinda",
+      "filterTags": ["organic"],
+      "price": 1599,
+      "discounted": false
+    },
+    {
+      "id": "78cbe9a5-4553-4700-87d6-483c9e93139f",
+      "title": "Kohlrabi",
+      "imageUrl": "https://img.rewe-static.de/0570311/11327870_digital-image.png",
+      "price": 75,
+      "discounted": false
+    },
+    {
+      "id": "ee01c3e1-b72a-4001-aea3-dcd34a3ec399",
+      "title": "Davert Bananenchips 125g",
+      "imageUrl": "https://img.rewe-static.de/1117948/24762522_digital-image.png",
+      "brand": "Davert",
+      "filterTags": ["organic"],
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "0808f931-f4c4-48cb-be23-82a601c79442",
+      "title": "Birne Abate Fetel",
+      "imageUrl": "https://img.rewe-static.de/0005800/24569368_digital-image.png",
+      "price": 60,
+      "discounted": false
+    },
+    {
+      "id": "597b104f-be46-492d-8ba4-cb3b234d1ece",
+      "title": "Chicoree 350g",
+      "imageUrl": "https://img.rewe-static.de/1033074/21110711_digital-image.png",
+      "price": 169,
+      "discounted": false
+    },
+    {
+      "id": "164a052a-c62d-466e-890b-1a9a227fd294",
+      "title": "REWE Bio Apfel rot 1kg",
+      "imageUrl": "https://img.rewe-static.de/1907545/21289326_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "ec4d3f45-ac3b-41af-a845-bf1265bf69a4",
+      "title": "Spitzkohl",
+      "imageUrl": "https://img.rewe-static.de/0482366/24569671_digital-image.png",
+      "price": 249,
+      "discounted": false
+    },
+    {
+      "id": "741e5150-487a-4451-84bf-2488a5a4e9cd",
+      "title": "Suntat K\u00fcrbiskerne ger\u00f6stet & gesalzen 400g",
+      "imageUrl": "https://img.rewe-static.de/6396461/22248306_digital-image.png",
+      "brand": "Suntat",
+      "price": 399,
+      "discounted": false
+    },
+    {
+      "id": "fc5c4117-8eb3-4dd1-936c-9c3831884f13",
+      "title": "Seeberger Pinienkerne 50g",
+      "imageUrl": "https://img.rewe-static.de/1460408/21422907_digital-image.png",
+      "brand": "Seeberger",
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "0a9d53c4-7bf0-4810-99dd-ff9f1328a93d",
+      "title": "Clementinen 1kg Netz",
+      "imageUrl": "https://img.rewe-static.de/1055132/23270610_digital-image.png",
+      "price": 129,
+      "discounted": false
+    },
+    {
+      "id": "7b6e457c-3d7a-4d5a-bb85-cbe7b11f082f",
+      "title": "REWE Bio Zucchini 500g",
+      "imageUrl": "https://img.rewe-static.de/2577507/26644840_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "5b6ea269-bdf0-4245-9b04-35fc22a3632e",
+      "title": "Limette",
+      "imageUrl": "https://img.rewe-static.de/3169120/24568901_digital-image.png",
+      "price": 59,
+      "discounted": false
+    },
+    {
+      "id": "2342c95a-75ca-4aaa-aba6-dd55b87d8b0a",
+      "title": "Passionsfr\u00fcchte 2 St\u00fcck",
+      "imageUrl": "https://img.rewe-static.de/2035821/23903926_digital-image.png",
+      "price": 229,
+      "discounted": false
+    },
+    {
+      "id": "d652510f-96d7-497d-bcdd-2718a9ebc55d",
+      "title": "Orangen 1,5kg",
+      "imageUrl": "https://img.rewe-static.de/1057913/21306094_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 259,
+      "discounted": false
+    },
+    {
+      "id": "2b55715f-59b5-4bfd-bb9f-9fd6bbefa077",
+      "title": "Apfel Braeburn rot",
+      "imageUrl": "https://img.rewe-static.de/5825563/24568906_digital-image.png",
+      "price": 40,
+      "discounted": false
+    },
+    {
+      "id": "47222d3d-876a-420b-8519-8b8c9927fd6a",
+      "title": "REWE Bio Gurke",
+      "imageUrl": "https://img.rewe-static.de/7359497/24569872_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 159,
+      "discounted": false
+    },
+    {
+      "id": "8d744a30-9c3b-4a42-ac74-89aec233f0b3",
+      "title": "Hauptstadt Basilikum",
+      "imageUrl": "https://img.rewe-static.de/7015264/26269230_digital-image.png",
+      "price": 249,
+      "discounted": false
+    },
+    {
+      "id": "d8f17e8f-608a-4a28-8807-05776f25d075",
+      "title": "Fenchel",
+      "imageUrl": "https://img.rewe-static.de/0483923/24570157_digital-image.png",
+      "price": 75,
+      "discounted": false
+    },
+    {
+      "id": "b09237f3-f678-47d6-9a03-b2492fb99ccd",
+      "title": "Kiwi Gold",
+      "imageUrl": "https://img.rewe-static.de/0022241/24569458_digital-image.png",
+      "price": 69,
+      "discounted": false
+    },
+    {
+      "id": "65900039-d695-4ad2-a26a-fc74ccc7db63",
+      "title": "REWE Bio Bananenchips ges\u00fc\u00dft 300g",
+      "imageUrl": "https://img.rewe-static.de/3018245/2097690_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "097b4f4a-7c02-4d83-b2fc-8a04edfedf16",
+      "title": "REWE Bio Sultaninen 200g",
+      "imageUrl": "https://img.rewe-static.de/4905385/857890_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "b5136636-5cfd-4c71-926a-88c66edeffa1",
+      "title": "Suntat Sonnenblumenkerne gesalzen 400g",
+      "imageUrl": "https://img.rewe-static.de/6396453/20184034_digital-image.png",
+      "brand": "Suntat",
+      "price": 329,
+      "discounted": false
+    },
+    {
+      "id": "cc8c0520-1e87-4d6b-bfac-4f4653b1aa96",
+      "title": "REWE Beste Wahl Banane",
+      "imageUrl": "https://img.rewe-static.de/1028378/21012012_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 34,
+      "discounted": false
+    },
+    {
+      "id": "8bfa5f8c-67c4-4ae0-ba85-07b57f53bdc4",
+      "title": "ja! Pinienkerne 50g",
+      "imageUrl": "https://img.rewe-static.de/2325000/23973954_digital-image.png",
+      "brand": "ja!",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "8c2d9e40-b726-4298-9e45-e2e81ad7ccc8",
+      "title": "REWE Bio K\u00fcrbiskerne ohne Schale 175g",
+      "imageUrl": "https://img.rewe-static.de/0039501/1341970_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "5fab8663-8b75-44dd-b189-7a258ecd15a5",
+      "title": "ja! Cranberries 200g",
+      "imageUrl": "https://img.rewe-static.de/2325016/23973949_digital-image.png",
+      "brand": "ja!",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "a0edde5d-474f-4145-b6b6-4918c904857c",
+      "title": "REWE Bio Blattsalat Mix 125g",
+      "imageUrl": "https://img.rewe-static.de/1121360/21679544_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "f5febdbc-9f68-4a9c-9a44-c0edf1efa55e",
+      "title": "REWE Beste Wahl Kaiserschoten 200g",
+      "imageUrl": "https://img.rewe-static.de/7265677/28333749_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 229,
+      "discounted": false
+    },
+    {
+      "id": "f5b7d54f-b4eb-4394-9756-be64983e19d7",
+      "title": "Kluth Cashew Mango-Vanille 100g",
+      "imageUrl": "https://img.rewe-static.de/1331351/28298451_digital-image.png",
+      "brand": "Kluth",
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "b01ddd32-a58f-4c6d-a5b9-60ae380e957d",
+      "title": "Bio Banane",
+      "imageUrl": "https://img.rewe-static.de/1930502/24568902_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 38,
+      "discounted": false
+    },
+    {
+      "id": "1f232618-8548-42ee-a02d-d099448501a2",
+      "title": "Knoblauch 150g",
+      "imageUrl": "https://img.rewe-static.de/7219991/28163303_digital-image.png",
+      "price": 99,
+      "discounted": false
+    },
+    {
+      "id": "2f0ddaa1-4938-470d-a068-8d69a29bde95",
+      "title": "REWE Beste Wahl Korinthen 250g",
+      "imageUrl": "https://img.rewe-static.de/0994604/23407971_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "b24f3918-5c1e-4db3-a155-722f72491fe5",
+      "title": "Knollensellerie",
+      "imageUrl": "https://img.rewe-static.de/0470767/21288886_digital-image.png",
+      "price": 159,
+      "discounted": false
+    },
+    {
+      "id": "567defb0-4386-40ec-8659-5b216791c3f5",
+      "title": "Porree",
+      "imageUrl": "https://img.rewe-static.de/1236008/24569677_digital-image.png",
+      "price": 45,
+      "discounted": false
+    },
+    {
+      "id": "38a7e363-19af-4d2a-acc1-60da4b9ee0ed",
+      "title": "REWE Rispentomaten Aromatico 250g",
+      "imageUrl": "https://img.rewe-static.de/1041191/21306443_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "93ab7ef3-c077-4c5f-b22d-f46e2eb79291",
+      "title": "Feldsalat 150g",
+      "imageUrl": "https://img.rewe-static.de/1043449/21174049_digital-image.png",
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "60ee13ba-2b87-433e-a1b5-79376023e055",
+      "title": "Davert Sonnenblumenkerne 250g",
+      "imageUrl": "https://img.rewe-static.de/1265346/24277548_digital-image.png",
+      "brand": "Davert",
+      "filterTags": ["organic"],
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "dd987ecd-9c77-4d67-bcbb-28cff7f22756",
+      "title": "Farmer's Snack Pinienkerne 75g",
+      "imageUrl": "https://img.rewe-static.de/5706181/22443737_digital-image.png",
+      "brand": "Farmer's Snack",
+      "price": 349,
+      "discounted": false
+    },
+    {
+      "id": "b10ad135-263c-4098-9e24-490cee6df311",
+      "title": "Fuchs Morcheln getrocknet 35g",
+      "imageUrl": "https://img.rewe-static.de/0037999/27187113_digital-image.png",
+      "brand": "Fuchs",
+      "price": 2699,
+      "discounted": false
+    },
+    {
+      "id": "05bf8b44-6ec3-4446-a817-2923e2ec0d0f",
+      "title": "Bund Radieschen mit Gr\u00fcn",
+      "imageUrl": "https://img.rewe-static.de/0483168/9686150_digital-image.png",
+      "price": 79,
+      "discounted": false
+    },
+    {
+      "id": "259bcc86-2859-4780-88dd-f4ba65094517",
+      "title": "Davert S\u00fc\u00dfe Aprikosen",
+      "imageUrl": "https://img.rewe-static.de/0819322/27954016_digital-image.png",
+      "brand": "keine Marke",
+      "filterTags": ["organic"],
+      "price": 329,
+      "discounted": false
+    },
+    {
+      "id": "143c8299-0081-49b8-bdd5-2b5b9ed70ab1",
+      "title": "Zwiebel 1kg",
+      "imageUrl": "https://img.rewe-static.de/8051780/1540510_digital-image.png",
+      "price": 55,
+      "discounted": false
+    },
+    {
+      "id": "a9923b51-01f9-4701-8dcc-500c54ca4286",
+      "title": "Sharon",
+      "imageUrl": "https://img.rewe-static.de/0027448/24569464_digital-image.png",
+      "price": 79,
+      "discounted": false
+    },
+    {
+      "id": "cd45466e-f449-44de-8d1f-f270dd168852",
+      "title": "Kluth K\u00fcrbiskerne schalenlos 125g",
+      "imageUrl": "https://img.rewe-static.de/1391316/26081243_digital-image.png",
+      "brand": "Kluth",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "9987298d-1457-4c5a-8d8b-52da0802ce24",
+      "title": "Seeberger Cranberries 125g",
+      "imageUrl": "https://img.rewe-static.de/6352472/2043370_digital-image.png",
+      "brand": "Seeberger",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "8518933f-47b5-4449-a3f0-91e7ddabaf3c",
+      "title": "Schnittlauch im Topf",
+      "imageUrl": "https://img.rewe-static.de/1045891/24352655_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "ebcb855e-00ec-475b-8587-cefa3c9fd533",
+      "title": "Seeberger Bananenchips 150g",
+      "imageUrl": "https://img.rewe-static.de/4745396/21288300_digital-image.png",
+      "brand": "Seeberger",
+      "price": 169,
+      "discounted": false
+    },
+    {
+      "id": "0fd31d21-35a8-453d-9f11-64e9b03ec684",
+      "title": "Blumenkohl Wei\u00df",
+      "imageUrl": "https://img.rewe-static.de/0482331/7361280_digital-image.png",
+      "price": 129,
+      "discounted": false
+    },
+    {
+      "id": "250c4bb4-4679-4894-be72-869ff9b7d6f3",
+      "title": "REWE Bio Sonnenblumekerne gesch\u00e4lt 250g",
+      "imageUrl": "https://img.rewe-static.de/0039495/2244070_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "f52f96b9-9de9-413c-b14b-42d04dc32bb6",
+      "title": "Seeberger Sonnenblumenkerne 200g",
+      "imageUrl": "https://img.rewe-static.de/4744306/1031550_digital-image.png",
+      "brand": "Seeberger",
+      "filterTags": ["new"],
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "777ed2f4-e1cf-47c5-b6e3-a1bd480dd9ba",
+      "title": "Florette S\u00fc\u00df & Knusprig Roter Kopfsalat 100g",
+      "imageUrl": "https://img.rewe-static.de/1165418/27038808_digital-image.png",
+      "brand": "Florette",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "461e9baa-539f-43bf-bc83-5371562d7771",
+      "title": "Snackkarotten 200g",
+      "imageUrl": "https://img.rewe-static.de/7178712/28443069_digital-image.png",
+      "price": 129,
+      "discounted": false
+    },
+    {
+      "id": "a2006775-c625-4c75-9346-15a37f5b3537",
+      "title": "Florette Winter Genuss 100g",
+      "imageUrl": "https://img.rewe-static.de/2630620/26113257_digital-image.png",
+      "brand": "Florette",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "f96e8a5a-1f08-4f6a-9e42-e3eaf3f6982c",
+      "title": "Gepa Mangos ungeschwefelt 100g",
+      "imageUrl": "https://img.rewe-static.de/7296398/16809950_digital-image.png",
+      "brand": "Gepa",
+      "filterTags": ["organic"],
+      "price": 279,
+      "discounted": false
+    },
+    {
+      "id": "4334ab97-32e4-4abb-86a4-07c825bcd474",
+      "title": "Florette Rucola 80g",
+      "imageUrl": "https://img.rewe-static.de/9506985/17574750_digital-image.png",
+      "brand": "Florette",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "206eab2a-8f7f-4222-b7d5-b746d41bb3c8",
+      "title": "Lauchzwiebeln Bund",
+      "imageUrl": "https://img.rewe-static.de/0482404/7360070_digital-image.png",
+      "price": 79,
+      "discounted": false
+    },
+    {
+      "id": "e22d6d29-76c5-49b7-8c04-bb00b3f83141",
+      "title": "Kiwi",
+      "imageUrl": "https://img.rewe-static.de/0195634/9686230_digital-image.png",
+      "price": 22,
+      "discounted": false
+    },
+    {
+      "id": "625d7869-9fba-4d75-be37-c9e06cb12338",
+      "title": "Chili Mix Tricolor 80g",
+      "imageUrl": "https://img.rewe-static.de/8229761/28442971_digital-image.png",
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "59e45ef2-3ad1-4fde-acd3-b63204057af8",
+      "title": "REWE Beste Wahl Zwiebel rot 350g",
+      "imageUrl": "https://img.rewe-static.de/3021457/26845602_digital-image.png",
+      "brand": "REWE Beste Wahl",
+      "price": 99,
+      "discounted": false
+    },
+    {
+      "id": "afc65c23-35c7-4396-847d-ba72e068bdc9",
+      "title": "Bio Speisem\u00f6hren 1kg",
+      "imageUrl": "https://img.rewe-static.de/2588140/24343912_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 189,
+      "discounted": false
+    },
+    {
+      "id": "2c64d75d-6d91-4a5c-8310-a4195cb06a2b",
+      "title": "Buschbohnen 400g",
+      "imageUrl": "https://img.rewe-static.de/1033058/21430243_digital-image.png",
+      "price": 249,
+      "discounted": false
+    },
+    {
+      "id": "1ff52161-7422-4f58-b6fa-90d6aaa1dc09",
+      "title": "Seeberger K\u00fcrbiskerne schalenlos 200g",
+      "imageUrl": "https://img.rewe-static.de/4744268/7361750_digital-image.png",
+      "brand": "Seeberger",
+      "price": 429,
+      "discounted": false
+    },
+    {
+      "id": "98417d80-6829-4a35-bcae-d9e63db5d80d",
+      "title": "Zucchini Gr\u00fcn",
+      "imageUrl": "https://img.rewe-static.de/0482161/24570156_digital-image.png",
+      "price": 37,
+      "discounted": false
+    },
+    {
+      "id": "142520a3-73f1-473a-9b44-49904256af77",
+      "title": "Apfel Snack Gala 980g",
+      "imageUrl": "https://img.rewe-static.de/7286442/27963530_digital-image.png",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "e22fa5a6-626e-400b-8e2a-3ecc9ad42f17",
+      "title": "Seeberger Aprikosen 200g",
+      "imageUrl": "https://img.rewe-static.de/4745507/3829740_digital-image.png",
+      "brand": "Seeberger",
+      "price": 379,
+      "discounted": false
+    },
+    {
+      "id": "592cb3e1-da30-4811-8b4d-bdf5d9c42345",
+      "title": "REWE Bio Rucola 125g",
+      "imageUrl": "https://img.rewe-static.de/2179945/23270147_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 169,
+      "discounted": false
+    },
+    {
+      "id": "5c49b0fa-2d16-4cd9-a951-5c7f287b64ef",
+      "title": "Knoblauch",
+      "imageUrl": "https://img.rewe-static.de/3363970/28163306_digital-image.png",
+      "price": 99,
+      "discounted": false
+    },
+    {
+      "id": "82be713d-24f7-4871-aeed-3d9e48d1e352",
+      "title": "Zwiebeln gelb Bio",
+      "imageUrl": "https://img.rewe-static.de/7077520/28884395_digital-image.png",
+      "filterTags": ["organic"],
+      "price": 259,
+      "discounted": false
+    },
+    {
+      "id": "b07547d1-c5c1-4480-b022-b1f6add0c710",
+      "title": "Apfel Elstar",
+      "imageUrl": "https://img.rewe-static.de/4659244/24568907_digital-image.png",
+      "price": 40,
+      "discounted": false
+    },
+    {
+      "id": "a446c8de-1910-4203-931b-97f652e3fa52",
+      "title": "S\u00fc\u00dfkartoffel",
+      "imageUrl": "https://img.rewe-static.de/0475963/24569668_digital-image.png",
+      "price": 90,
+      "discounted": false
+    },
+    {
+      "id": "85f8df1b-40eb-4b62-93f3-83c596b40ac6",
+      "title": "Cherry Rispentomaten Dulcita 200g",
+      "imageUrl": "https://img.rewe-static.de/1915307/23275824_digital-image.png",
+      "price": 299,
+      "discounted": false
+    },
+    {
+      "id": "39894d39-e8be-4afc-a7ca-d617836ad062",
+      "title": "Karotten 2kg Beutel",
+      "imageUrl": "https://img.rewe-static.de/0886960/20854767_digital-image.png",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "a6c06f5e-6083-47a4-8920-8b0aabf7c82f",
+      "title": "Kopfsalat",
+      "imageUrl": "https://img.rewe-static.de/0482684/11339830_digital-image.png",
+      "price": 159,
+      "discounted": false
+    },
+    {
+      "id": "895945cd-f45a-4d73-b131-5af73d083efb",
+      "title": "Petersilie kraus im Topf",
+      "imageUrl": "https://img.rewe-static.de/1045889/21289001_digital-image.png",
+      "brand": "REWE",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "a5bb040a-66c6-409c-b14f-706bcad6338a",
+      "title": "Spargel 500g",
+      "imageUrl": "https://img.rewe-static.de/1365987/23770080_digital-image.png",
+      "price": 449,
+      "discounted": false
+    },
+    {
+      "id": "edbc8e0d-ddbb-4c43-8ee6-afd94668568a",
+      "title": "Koriander 15g Schale",
+      "imageUrl": "https://img.rewe-static.de/1045852/24320401_digital-image.png",
+      "price": 99,
+      "discounted": false
+    },
+    {
+      "id": "af79d8b1-359c-4c8e-bebd-f9739301bc7d",
+      "title": "ja! Soft-Feigen getrocknet 250g",
+      "imageUrl": "https://img.rewe-static.de/3151967/26607080_digital-image.png",
+      "brand": "ja!",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "42f648ee-a378-4838-bbe7-f16d00dc6f76",
+      "title": "Farmer's Snack Kokos-Chips 100g",
+      "imageUrl": "https://img.rewe-static.de/8030847/23937293_digital-image.png",
+      "brand": "Farmer's Snack",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "de77bedb-c436-4b13-b80b-f33e8bb6353a",
+      "title": "REWE Bio Basilikum im Topf",
+      "imageUrl": "https://img.rewe-static.de/1045916/21289421_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "d956a76b-83a2-475a-9157-60ef50688ced",
+      "title": "Cherry Romatomaten 250g",
+      "imageUrl": "https://img.rewe-static.de/1033906/23292477_digital-image.png",
+      "brand": "REWE",
+      "price": 99,
+      "discounted": false
+    },
+    {
+      "id": "674f30c5-064b-499a-b297-b4d643c0b101",
+      "title": "REWE Bio Schalotten 200g Netz",
+      "imageUrl": "https://img.rewe-static.de/6697038/7361700_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 159,
+      "discounted": false
+    },
+    {
+      "id": "2209d1cd-5dcf-4ee4-92e1-9ae750f9ec25",
+      "title": "Florette Duo Feldsalat & Rucola 100g",
+      "imageUrl": "https://img.rewe-static.de/1255615/17574670_digital-image.png",
+      "brand": "Florette",
+      "price": 179,
+      "discounted": false
+    },
+    {
+      "id": "657c13d9-0570-4217-a545-ab5330192966",
+      "title": "Champignons wei\u00df 300g",
+      "imageUrl": "https://img.rewe-static.de/1947331/21288594_digital-image.png",
+      "price": 199,
+      "discounted": false
+    },
+    {
+      "id": "42b4f3b3-419a-467d-bd73-772ef4b510e2",
+      "title": "REWE Bio Cherryrispen 250g",
+      "imageUrl": "https://img.rewe-static.de/2853400/10529910_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 229,
+      "discounted": false
+    },
+    {
+      "id": "697bcf1d-8e26-479b-8d05-47543ab574d2",
+      "title": "REWE Bio Sprossen Trio 100g",
+      "imageUrl": "https://img.rewe-static.de/7167047/28600277_digital-image.png",
+      "brand": "REWE Bio",
+      "filterTags": ["organic"],
+      "price": 149,
+      "discounted": false
+    },
+    {
+      "id": "6d229df7-cdca-43ea-9392-6f404c2d7822",
+      "title": "Bonduelle Salatmix Country 350g",
+      "imageUrl": "https://img.rewe-static.de/0335822/1674280_digital-image.png",
+      "brand": "Bonduelle",
+      "price": 249,
+      "discounted": false
+    }
+  ]
+}

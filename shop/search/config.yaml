@@ -1,0 +1,4 @@
+Application: 
+  Name: search
+Server:
+  Port: 8080

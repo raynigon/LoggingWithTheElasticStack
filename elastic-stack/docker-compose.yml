@@ -1,0 +1,137 @@
+version: '2.4'
+services:
+  # Master Node 0 listens on Port 9200
+  master0:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.3.0
+    ports:
+      - "9200:9200"
+    networks:
+      - esnet
+    environment:
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+      - "cluster.name=elastictalk-cluster"
+      - "node.master=true"
+      - "node.data=true"
+      - "node.name=master0"
+      - "discovery.seed_hosts=master0,master1,master2"
+      - "cluster.initial_master_nodes=master0,master1"
+    restart: always
+    logging:
+      driver: "none"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile: 65536
+  # Master Node 1 listens on Port 9201
+  master1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.3.0
+    ports:
+      - "9201:9200"
+    networks:
+      - esnet
+    environment:
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+      - "cluster.name=elastictalk-cluster"
+      - "node.master=true"
+      - "node.data=true"
+      - "node.name=master1"
+      - "discovery.seed_hosts=master0,master1,master2"
+      - "cluster.initial_master_nodes=master0,master1"
+    restart: always
+    logging:
+      driver: "none"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile: 65536
+    depends_on:
+      - master0
+  # Master Node 2 listens on Port 9202
+  master2:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.3.0
+    ports:
+      - "9202:9200"
+    networks:
+      - esnet
+    environment:
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+      - "cluster.name=elastictalk-cluster"
+      - "node.master=true"
+      - "node.data=true"
+      - "node.name=master2"
+      - "discovery.seed_hosts=master0,master1,master2"
+      - "cluster.initial_master_nodes=master0,master1"
+    restart: always
+    logging:
+      driver: "none"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile: 65536
+    depends_on:
+      - master0
+      - master1
+  # Kibana Node listens on Port 5601
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.3.0
+    restart: always
+    environment:
+      - "SERVER_NAME=kibana:5601"
+      - "ELASTICSEARCH_HOSTS=http://master0:9200"
+      - "cluster.name=elastictalk-cluster"
+    networks:
+      - esnet
+    ports:
+      - 5601:5601
+    restart: always
+    logging:
+      driver: "none"
+    depends_on:
+      - master0
+      - master1
+      - master2
+  logstash:
+    build: 
+      context: logstash/.
+    restart: always
+    logging:
+      driver: "none"
+    ports:
+      - 12201:12201/udp
+    networks:
+      - esnet
+    depends_on:
+      - master0
+      - master1
+      - master2
+  filebeat:
+    container_name: filebeat
+    hostname: filebeat
+    user: root
+    image: "docker.elastic.co/beats/filebeat:7.3.0"
+    volumes:
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      #Mount the prospectors directory. Users can in turn add propspectors to this directory and they will be dynamically loaded
+      - /var/lib/docker/containers:/hostfs/var/lib/docker/containers
+      #Named volume fsdata. This is used to persist the registry file between restarts, so to avoid data duplication
+      - fbdata:/usr/share/filebeat/data/
+    networks:
+      - esnet
+    logging:
+      driver: "none"
+    depends_on:
+      - logstash
+      - master0
+      - master1
+      - master2
+    command: filebeat -e
+    restart: always
+networks:
+  esnet:
+volumes:
+  #Filebeat data i.e. registry file
+  fbdata:
+    driver: local

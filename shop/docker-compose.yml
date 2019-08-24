@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  web:
+    build: frontend/.
+    network_mode: "bridge"
+    ports:
+      - "8080:80"
+  search:
+    build: 
+      context: search/.
+    ports:
+      - "8090:8080"
+    hostname: search

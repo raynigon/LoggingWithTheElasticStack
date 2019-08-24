@@ -1,0 +1,15 @@
+logging.to_stderr: true
+filebeat.registry.path: /usr/share/filebeat/data/registry
+filebeat.inputs:
+  - type: container
+    format: docker
+    combine_partial: true
+    stream: stdout
+    paths: 
+      - '/hostfs/var/lib/docker/containers/*/*.log'
+    json.keys_under_root: true
+    json.overwrite_keys: true
+    json.add_error_key: true
+    json.ignore_decoding_error: true
+output.logstash:
+  hosts: ["logstash:5044"]

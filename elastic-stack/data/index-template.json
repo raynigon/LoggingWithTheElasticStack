@@ -1,0 +1,130 @@
+{
+  "index_patterns": [
+    "elastictalk-*"
+  ],
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1,
+    "index.lifecycle.name": "elastictalk_policy",
+    "index.lifecycle.rollover_alias": "elastictalk"
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": {
+        "type": "date"
+      },
+      "@version": {
+        "type": "keyword"
+      },
+      "user_agent": {
+        "type": "object",
+        "properties": {
+          "build": {
+            "type": "keyword"
+          },
+          "device": {
+            "type": "keyword"
+          },
+          "major": {
+            "type": "long"
+          },
+          "minor": {
+            "type": "long"
+          },
+          "patch": {
+            "type": "long"
+          },
+          "os": {
+            "type": "keyword"
+          },
+          "os_name": {
+            "type": "keyword"
+          },
+          "os_major": {
+            "type": "long"
+          },
+          "os_minor": {
+            "type": "long"
+          },
+          "name": {
+            "type": "keyword"
+          }
+        }
+      },
+      "application_type": {
+        "type": "keyword"
+      },
+      "bytes": {
+        "type": "keyword"
+      },
+      "client_ip": {
+        "type": "keyword"
+      },
+      "container_id": {
+        "type": "keyword"
+      },
+      "container_name": {
+        "type": "keyword"
+      },
+      "correlation-id": {
+        "type": "keyword"
+      },
+      "created": {
+        "type": "date"
+      },
+      "http_version": {
+        "type": "keyword"
+      },
+      "ident": {
+        "type": "text"
+      },
+      "log_type": {
+        "type": "keyword"
+      },
+      "referrer": {
+        "type": "text"
+      },
+      "remoteAddr": {
+        "type": "keyword"
+      },
+      "request_method": {
+        "type": "keyword"
+      },
+      "response_time": {
+        "type": "float"
+      },
+      "service": {
+        "type": "keyword"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "tags": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      },
+      "uri": {
+        "type": "text",
+        "norms": false,
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "message": {
+        "type": "text",
+        "norms": false,
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}
